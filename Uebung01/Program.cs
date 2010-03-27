@@ -43,23 +43,5 @@ namespace PAD2_Verkehrsnetz
 
             Console.ReadLine();
         }
-
-
-        //static void Main(string[] args)
-        //{
-        //    Ubahn u1 = new Ubahn();
-        //    Ubahn u2 = new Ubahn(100, 50, "Niederflur-Ubahn");
-
-        //    String u1Typ = u1.GetTyp();
-        //    Console.WriteLine(u1Typ);
-
-        //    String u2Typ = u2.GetTyp();
-        //    Console.WriteLine(u2Typ);
-
-        //    u1.Ansage();
-        //    u1.SetAktFahrerDienstnr(234);
-
-        //    Console.ReadLine();
-        //}
     }
 }
