@@ -8,8 +8,8 @@
     <ProjectGuid>{871AC610-4AE5-4E6C-B196-63377A77E49C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Uebung01</RootNamespace>
-    <AssemblyName>Uebung01</AssemblyName>
+    <RootNamespace>PAD2_Verkehrsnetz</RootNamespace>
+    <AssemblyName>PAD2_Verkehrsnetz</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

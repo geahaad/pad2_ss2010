@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung01", "Uebung01\Uebung01.csproj", "{871AC610-4AE5-4E6C-B196-63377A77E49C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAD2_Verkehrsnetz", "Uebung01\PAD2_Verkehrsnetz.csproj", "{871AC610-4AE5-4E6C-B196-63377A77E49C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

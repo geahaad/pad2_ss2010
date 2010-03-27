@@ -56,7 +56,9 @@ namespace Uebung01
             }
         }
 
-        //TODO Ausgabe Stationen in umgekehrter Reihenfolge
-        //
+        public void AusgabeStationenGegenrichtung()
+        {
+            //TODO Ausgabe Stationen in umgekehrter Reihenfolge
+        }
     }
 }
