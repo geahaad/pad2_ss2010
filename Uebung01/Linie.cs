@@ -60,6 +60,7 @@ namespace PAD2_Verkehrsnetz
             }
             else
             {
+                Console.WriteLine("Station {0} konnte nicht eingefügt werden. Station {1} existiert nicht!", name, nach);
                 return false;
             }
         }
