@@ -97,6 +97,14 @@ namespace PAD2_Verkehrsnetz
         public void AusgabeStationenGegenrichtung()
         {
             //TODO Ausgabe Stationen in umgekehrter Reihenfolge
+            LinkedListNode<string> current = this.strecke.Last;
+
+            while (current != null)
+            {
+                Console.WriteLine(current.Value);
+                current = current.Previous;
+            }
+
         }
 
         /// <summary>
@@ -110,6 +118,11 @@ namespace PAD2_Verkehrsnetz
             // this.strecke.Remove
             // Rückgabe von true, wenn erfolgreich, false wenn keine Station gefunden/gelöscht wurde
             return false;
-        }   
+        }
+
+        public String getName()
+        {
+            return this.name;
+        }
     }
 }
