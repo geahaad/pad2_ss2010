@@ -34,7 +34,7 @@ namespace PAD2_Verkehrsnetz
             }
             else
             {
-                Console.WriteLine("Station {0} existiert bereits in Graphen", name);
+                Console.WriteLine("Station existiert bereits in Graphen");
             }
         }
 

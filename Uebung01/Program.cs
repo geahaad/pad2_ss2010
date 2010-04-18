@@ -63,6 +63,11 @@ namespace PAD2_Verkehrsnetz
 
             vnHelper.NachbarVerbindungEinfuegen("Spitelau", "Heiligenstadt"); // Fehler
 
+
+            vnHelper.Einlesen();
+
+            vnHelper.LinienAusgabe();
+
             Console.ReadLine();
         }
     }
