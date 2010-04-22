@@ -1,0 +1,11 @@
+﻿Stadion;Krieau;661;U2;
+Krieau;Stadion;661;U2;Messe Prater;777;U2;
+Messe Prater;Krieau;777;U2;Praterstern;833;U1;
+Praterstern;Messe Prater;833;U2;Taborstraße;958;U2;Nestroyplatz;768;U1;Vorgartenstraße;715;U1;
+Taborstraße;Praterstern;958;U2,U1;Schottenring;701;U2,U4;
+Schottenring;Taborstraße;701;U2;Schottentor;752;U2;Roßauer Länder;744;U4;Schwedenplatz;762;U4,U1;
+Schottentor;Schottenring;752;U2,U4;Rathaus;951;U2;
+Rathaus;Schottentor;951;U2;Volkstheater;665;U2,U3
+Volkstheater;Rathaus;665;U2;Museumsquartier;348;U2;Herrengasse;637;U3;Neubaugasse;889;U3;
+Museumsquartier;Volkstheater;348;U2;Karlsplatz;606;U2,U1,U4;
+Karlsplatz;Museumsquartier;606;U2;Taubstummengasse;928;U2;Stephansplatz;823;U1,U3;Stadtpark;910;U4;Kettenbrückengasse;997;U4;

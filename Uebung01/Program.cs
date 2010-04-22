@@ -9,6 +9,7 @@ namespace PAD2_Verkehrsnetz
     {
         static void Main(string[] args)
         {
+            #region Linienobjekte befüllen
             //Linie u1 = new Linie("u1", "rot");
             //u1.ErsteStationEinfuegen("Leopoldau");
             //u1.LetzteStationEinfuegen("Reumannplatz");
@@ -37,8 +38,11 @@ namespace PAD2_Verkehrsnetz
             //Linie u3 = new Linie("u3", "orange");
             //Linie u4 = new Linie("u4", "grün");
             //Linie u6 = new Linie("u6", "braun");
+            #endregion
 
-            //VerkehrsnetzHelper vnHelper = new VerkehrsnetzHelper();
+            VerkehrsnetzHelper vnHelper = new VerkehrsnetzHelper();
+
+            #region Manuelles Aufbauen des Graphen
             //vnHelper.LinieEinfuegen("linie1", u1);
             //vnHelper.LinieEinfuegen("linie2", u2);
             //vnHelper.LinieEinfuegen("linie3", u4);
@@ -46,27 +50,24 @@ namespace PAD2_Verkehrsnetz
 
             //vnHelper.LinienAusgabe();
 
+            //vnHelper.StationInGraphEinfuegen("Hütteldorf");
+            //vnHelper.StationInGraphEinfuegen("Schönbrunn");
+            //vnHelper.StationInGraphEinfuegen("Spittelau");
+            //vnHelper.StationInGraphEinfuegen("Karlsplatz");
 
-            VerkehrsnetzHelper vnHelper = new VerkehrsnetzHelper();
-            vnHelper.StationInGraphEinfuegen("Hütteldorf");
-            vnHelper.StationInGraphEinfuegen("Schönbrunn");
-            vnHelper.StationInGraphEinfuegen("Spittelau");
-            vnHelper.StationInGraphEinfuegen("Karlsplatz");
-
-            vnHelper.StationInGraphEinfuegen("Hütteldorf"); // Fehler: existiert bereits
+            //vnHelper.StationInGraphEinfuegen("Hütteldorf"); // Fehler: existiert bereits
 
 
-            vnHelper.NachbarVerbindungEinfuegen("Hütteldorf", "Ober St. Veit");
-            vnHelper.NachbarVerbindungEinfuegen("Schönbrunn", "Hietzing");
-            vnHelper.NachbarVerbindungEinfuegen("Schönbrunn", "Hietzing"); // Fehler
-            vnHelper.NachbarVerbindungEinfuegen("Schönbrunn", "Meidlinger Hauptstraße");
+            //vnHelper.NachbarVerbindungEinfuegen("Hütteldorf", "Ober St. Veit");
+            //vnHelper.NachbarVerbindungEinfuegen("Schönbrunn", "Hietzing");
+            //vnHelper.NachbarVerbindungEinfuegen("Schönbrunn", "Hietzing"); // Fehler
+            //vnHelper.NachbarVerbindungEinfuegen("Schönbrunn", "Meidlinger Hauptstraße");
 
-            vnHelper.NachbarVerbindungEinfuegen("Spitelau", "Heiligenstadt"); // Fehler
+            //vnHelper.NachbarVerbindungEinfuegen("Spitelau", "Heiligenstadt"); // Fehler
+            #endregion
 
-
+            // Datei einlesen
             vnHelper.Einlesen();
-
-            vnHelper.LinienAusgabe();
 
             Console.ReadLine();
         }
